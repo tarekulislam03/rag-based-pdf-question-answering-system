@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 1,
+    "text": "Bioinformatics Practical Manual Protein & DNA Sequence Analysis with Phylogenetic Tree Construction 1. Aim To analyze protein and DNA sequences using bioinformatics tools for functional annotation, structural prediction, and evolutionary relationship determination through phylogenetic tree construction. 2. Learning Outcomes - Retrieve DNA and protein sequences from databases (NCBI, UniProt) - Perform sequence similarity searches (BLASTn, BLASTp) - Align sequences using Clustal Omega or MUSCLE - Predict domains, motifs, and protein properties - Model protein 3D structures using SWISS-MODEL or AlphaFold - Construct and interpret phylogenetic trees (MEGA X / Phylogeny.fr) 3. Requirements - Internet access and computer with browser - Tools: NCBI BLAST, Clustal Omega, InterPro, ProtParam, SWISS"
+  },
+  {
+    "id": 1,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 1,
+    "text": "ees (MEGA X / Phylogeny.fr) 3. Requirements - Internet access and computer with browser - Tools: NCBI BLAST, Clustal Omega, InterPro, ProtParam, SWISS-MODEL/AlphaFold, MEGA X or Phylogeny.fr 4. Procedure Step 1: Sequence Retrieval Retrieve DNA sequence () and protein sequence () from NCBI or UniProt. Save in FASTA format. Step 2: Similarity Search Run BLASTn for DNA and BLASTp for protein. Record top hits with % identity, coverage, E-value, and function. Step 3: Multiple Sequence Alignment (MSA) Align selected sequences using Clustal Omega or MUSCLE. Highlight conserved regions. Step 4: Functional Analysis Use InterPro/Pfam to identify protein motifs and domains. Use ProtParam for protein properties."
+  },
+  {
+    "id": 2,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 1,
+    "text": "n motifs and domains. Use ProtParam for protein properties."
+  },
+  {
+    "id": 3,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 2,
+    "text": "Step 5: Structural Modeling (Protein) Check AlphaFold DB or model with SWISS-MODEL. Save and visualize the structure. Step 6: Phylogenetic Tree Construction Construct a phylogenetic tree using aligned sequences (MEGA X or Phylogeny.fr). 5. Observations & Results A. BLAST Results clu Accession Organism % Identity Coverage E-value Function NP_001853.2 Homo sapiens 99.22% 100% 3e-89 cytochrome c oxidase subunit 5B, mitochondrial precursor XP_054331893.1 Pongo pygmaeus 96.90% 100% 2e-86 cytochrome c oxidase subunit 5B, mitochondrial KAF6429150.1 Molossus molossus 84.50% 100% 2e-78 hypothetical protein HJG59_003243 XP_055981796.1 Sorex fumeus 82.95% 100% 6e-78 cytochrome c oxidase subunit 5B, mitochondrial isoform X1"
+  },
+  {
+    "id": 4,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 2,
+    "text": "5% 100% 6e-78 cytochrome c oxidase subunit 5B, mitochondrial isoform X1"
+  },
+  {
+    "id": 5,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 3,
+    "text": "B. InterPro / Pfam Domains Domain Source DB Residue Range Function Cytochrome c oxidase subunit Vb, copper-binding domain Pfam 66-125 This domain is part of the final enzyme in the electron transport chain and is involved in binding a copper ion. C. ProtParam Properties Property Value Molecular Weight 13695.69 Theoretical pI 9.07 Instability Index 43.06 (This classifies the protein as unstable) Aliphatic Index 78.06 GRAVY -0.298 D. Phylogenetic Tree Notes Closest Relatives Evolutionary Insight As you can see, the human (NP_001853.2) and the orangutan (XP_054331893.1) are paired together on the The bat (KAF6429150.1) and the shrew (XP_055981796.1) are on more distant branches, showing they are less"
+  },
+  {
+    "id": 6,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 3,
+    "text": "6.1) are on more distant branches, showing they are less"
+  },
+  {
+    "id": 7,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 4,
+    "text": "closest branches. This indicates they are the most closely related in this group, which makes sense as they are both primates. related to the primates and to each other. This is exactly what we would expect to see. E. Figures / Screenshots Insert screenshots of: - BLAST results - Multiple Sequence Alignment"
+  },
+  {
+    "id": 8,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 5,
+    "text": "- Protein structure model - Phylogenetic tree 6. Conclusion This analysis investigated the protein sequence AAA52061.1 , the cytochrome c oxidase precursor from Homo sapiens . A BLASTp search confirmed its identity, revealing high similarity to cytochrome c oxidase subunit 5B proteins in other mammals, including the orangutan ( Pongo pygmaeus ). Functional analysis using InterPro identified a key \"Cytochrome c oxidase subunit Vb, copper-binding domain,\" confirming its role in cellular respiration. Physicochemical analysis via ProtParam determined the protein has a molecular weight of approximately 13.7 kDa and is classified as unstable. A 3D structural model was obtained from the AlphaFold database. Finally, a multiple sequence alignment showed high conservation across related species, and"
+  },
+  {
+    "id": 9,
+    "pdf_name": "bioinformatics-lab-assignment.pdf",
+    "page": 5,
+    "text": "structural model was obtained from the AlphaFold database. Finally, a multiple sequence alignment showed high conservation across related species, and the phylogenetic tree constructed using MEGA X demonstrated evolutionary relationships consistent with known biology, grouping Homo sapiens most closely with Pongo pygmaeus . In summary, this series of bioinformatic analyses successfully characterized the protein's function, physicochemical properties, structure, and evolutionary context."
+  }
+]
